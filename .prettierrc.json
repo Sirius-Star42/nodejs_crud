@@ -11,7 +11,7 @@
             }
         },
         {
-            "files": ["*.html", "legacy/**/*.js"],
+            "files": ["*.html", "**/*.js"],
             "options": {
                 "tabWidth": 4
             }
