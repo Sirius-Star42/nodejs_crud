@@ -31,9 +31,7 @@ To run this project, you will need to install the following environment
 
 #### Get all items
 
-```http
-  GET /api/items
-```
+  > GET /api/items
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
@@ -41,9 +39,7 @@ To run this project, you will need to install the following environment
 
 #### Get item
 
-```http
-  GET /api/items/${id}
-```
+ >  GET /api/items/${id}
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |

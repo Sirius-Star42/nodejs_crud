@@ -14,4 +14,5 @@ const connectDb = async () => {
     }
 }
 
-module.exports = connectDb
+exports.sequelize = sequelize
+exports.connectDb = connectDb

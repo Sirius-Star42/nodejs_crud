@@ -3,7 +3,10 @@ var express = require('express')
 var path = require('path')
 var cookieParser = require('cookie-parser')
 var logger = require('morgan')
-var connectDb = require('./config/db.config')
+var {connectDb} = require('./config/db.config')
+
+var a = require('./models/models')
+
 
 var indexRouter = require('./routes/index')
 var usersRouter = require('./routes/users')
@@ -11,6 +14,7 @@ var usersRouter = require('./routes/users')
 var app = express()
 
 connectDb()
+a()
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'))
